@@ -26,7 +26,7 @@ int main()
 
     greater = 0;
 
-    for (int i = 3; i < array.size(); i += 1)
+    for (int i = 3; i < array.size(); ++i)
     {
         if (array[i] + array[i - 1] + array[i - 2] > array[i - 1] + array[i - 2] + array[i - 3])
             ++greater;
